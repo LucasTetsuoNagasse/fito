@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #145ab4;
+    display: flex;
+}
+#btn {
+    background-color: #c2633d;
+    color: #ffffff;
+    width: 150px;
+    height: 50px;
+    border-radius: .5em;
+}

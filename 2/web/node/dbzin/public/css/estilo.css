@@ -1,0 +1,66 @@
+body {
+    background-color: #6b8dce;
+    font-family: arial;
+    margin: 0;
+}
+nav {
+    background-color: #5873a7;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+nav a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5em;
+}
+nav a:hover {
+    background-color: #4e6692;
+}
+main {
+    margin-top: 4%;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+}
+h1 {
+    font-size: 2em;
+}
+#caixa_formulario {
+    background-color: #86b1ff;
+    display: grid;
+    margin: auto;
+    border-radius: 0.5em;
+    padding: 1%;
+    width: 20%;
+}
+form {
+    display: grid;
+}
+#caixa_formulario label {
+    display: grid;
+    justify-items: center;
+    margin: 1% 0 0 0;
+}
+table {
+    margin: auto;
+}
+input {
+    border: 1px solid #000000;
+    border-radius: 0.5em;
+    width: 100%;
+}
+button {
+    background-color: #493268;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 2%;
+    padding: 1%;
+}

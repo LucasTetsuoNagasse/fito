@@ -1,0 +1,42 @@
+body {
+    background-color: #526150;
+    margin: 0;
+}
+nav {
+    background-color: #8383c9;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav li {
+    display: grid;
+    padding: 1%;
+}
+nav li a {
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+nav li:hover{
+    background-color: #7676b3;
+}
+main {
+    margin-top: 4%;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+li {
+    list-style-type: none;
+}
+div.projetos {
+    background-color: #bd984f;
+    border-radius: 0.5em;
+    margin: 0 30% 0 30%;
+    padding: 1%;
+}

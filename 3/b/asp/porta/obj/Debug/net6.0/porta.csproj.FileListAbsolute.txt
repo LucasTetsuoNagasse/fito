@@ -1,0 +1,15 @@
+D:\githubb\luvas\fito\3\c\asp\porta\bin\Debug\net6.0\porta.exe
+D:\githubb\luvas\fito\3\c\asp\porta\bin\Debug\net6.0\porta.deps.json
+D:\githubb\luvas\fito\3\c\asp\porta\bin\Debug\net6.0\porta.runtimeconfig.json
+D:\githubb\luvas\fito\3\c\asp\porta\bin\Debug\net6.0\porta.dll
+D:\githubb\luvas\fito\3\c\asp\porta\bin\Debug\net6.0\porta.pdb
+D:\githubb\luvas\fito\3\c\asp\porta\obj\Debug\net6.0\porta.csproj.AssemblyReference.cache
+D:\githubb\luvas\fito\3\c\asp\porta\obj\Debug\net6.0\porta.GeneratedMSBuildEditorConfig.editorconfig
+D:\githubb\luvas\fito\3\c\asp\porta\obj\Debug\net6.0\porta.AssemblyInfoInputs.cache
+D:\githubb\luvas\fito\3\c\asp\porta\obj\Debug\net6.0\porta.AssemblyInfo.cs
+D:\githubb\luvas\fito\3\c\asp\porta\obj\Debug\net6.0\porta.csproj.CoreCompileInputs.cache
+D:\githubb\luvas\fito\3\c\asp\porta\obj\Debug\net6.0\porta.dll
+D:\githubb\luvas\fito\3\c\asp\porta\obj\Debug\net6.0\refint\porta.dll
+D:\githubb\luvas\fito\3\c\asp\porta\obj\Debug\net6.0\porta.pdb
+D:\githubb\luvas\fito\3\c\asp\porta\obj\Debug\net6.0\porta.genruntimeconfig.cache
+D:\githubb\luvas\fito\3\c\asp\porta\obj\Debug\net6.0\ref\porta.dll

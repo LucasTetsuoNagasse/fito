@@ -1,4 +1,4 @@
-﻿using System.Diagnostics;
+using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using geladeira.Models;
 
@@ -27,6 +27,7 @@ public class HomeController : Controller
   {
     return View();
   }
+  
   [HttpPost]
   public IActionResult CorrectQuestons(QuestonsModel model)
   {

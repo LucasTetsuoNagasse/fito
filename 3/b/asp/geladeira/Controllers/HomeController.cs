@@ -27,10 +27,10 @@ public class HomeController : Controller
     {
         return View();
     }
-    [HttpPost]
-    public ActionResult QuestonsR()
+    [HttpPost, ActionName("Questons")]
+    public ActionResult QuestonsR(QuestonsModel model)
     {
-        return View("Index");
+        return View(model);
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

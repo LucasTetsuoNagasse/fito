@@ -1,13 +1,22 @@
-@{
-  ViewData["Title"] = "Questons";
+﻿@{
+  ViewData["Title"] = "Correct Questons";
+
+  var grade = 0;
+
+  if (this.Model.q1 == "a") grade++;
+
+  if (this.Model.q2 == "b") grade++;
+
+  if (this.Model.q3 == "d") grade++;
 }
 
-<form method="post" asp-controller="Home" asp-action="CorrectQuestons" class="d-flex flex-column border border-2 border-secondary rounded-1 mx-auto p-2 w-50">
+<form class="d-flex flex-column border border-2 border-secondary rounded-1 mx-auto p-2 w-50">
   <h1 class="mx-auto">@ViewData["Title"]</h1>
-  <fieldset class="d-flex flex-column border border-secondary border-2 rounded-1 mb-2 p-1">
+  <h1 class="text-center bg-success rounded-1 p-1">@(grade + "/10")</h1>
+  <fieldset class="d-flex flex-column border border-secondary border-2 rounded-1 mb-2 p-1" disabled>
     <legend><span class="ms-1">1&#41 O que é o HTTP ?</span></legend>
-    <label class="d-flex m-1">
-      <input type="radio" name="q1" value="a" class="h-100 mt-2" required>
+    <label class="d-flex m-1 @(this.Model.q1 != null ? "bg-success rounded-1 p-1" : null)">
+      <input type="radio" name="q1" value="a" class="h-100 mt-2" @(this.Model.q1 != null ? "checked" : null) required>
       <span class=" ms-1">a&#41 É um protocolo de comunicação</span>
     </label>
     <label class="d-flex m-1">
@@ -27,14 +36,14 @@
       <span class="ms-1">e&#41 É uma linguagem de programação para lidar com dados</span>
     </label>
   </fieldset>
-  <fieldset class="d-flex flex-column border border-secondary border-2 rounded-1 mb-2 p-1">
+  <fieldset class="d-flex flex-column border border-secondary border-2 rounded-1 mb-2 p-1" disabled>
     <legend><span class="ms-1">2&#41 O que faz o HTTP ?</span></legend>
     <label class="d-flex m-1">
       <input type="radio" name="q2" value="a" class="h-100 mt-2" required>
       <span class="ms-1">a&#41 Transforma páginas html em páginas css</span>
     </label>
-    <label class="d-flex m-1">
-      <input type="radio" name="q2" value="b" class="h-100 mt-2" required>
+    <label class="d-flex m-1 @(this.Model.q1 != null ? "bg-success rounded-1 p-1" : null)">
+      <input type="radio" name="q2" value="b" class="h-100 mt-2" @(this.Model.q1 != null ? "checked" : null) required>
       <span class="ms-1">b&#41 Envia dados através de métodos entre o cliente e o servidor</span>
     </label>
     <label class="d-flex m-1">
@@ -50,7 +59,7 @@
       <span class="ms-1">e&#41 Termina a função do servidor, exibindo a página para o cliente</span>
     </label>
   </fieldset>
-  <fieldset class="d-flex flex-column border border-secondary border-2 rounded-1 mb-2 p-1">
+  <fieldset class="d-flex flex-column border border-secondary border-2 rounded-1 mb-2 p-1" disabled>
     <legend><span class="ms-1">3&#41 O que é request ?</span></legend>
     <label class="d-flex m-1">
       <input type="radio" name="q3" value="a" class="h-100 mt-2" required>
@@ -64,16 +73,16 @@
       <input type="radio" name="q3" value="c" class="h-100 mt-2" required>
       <span class="ms-1">c&#41 O resultado de uma busca na internet</span>
     </label>
-    <label class="d-flex m-1">
-      <input type="radio" name="q3" value="d" class="h-100 mt-2" required>
-      <span class="ms-1">d&#41 É uma requisição para o servidor</span>
+    <label class="d-flex m-1 @(this.Model.q1 != null ? "bg-success rounded-1 p-1" : null)">
+      <input type="radio" name="q3" value="d" class="h-100 mt-2" @(this.Model.q1 != null ? "checked" : null) required>
+      <span class="ms-1">d&#41 É a requisição de algo para o servidor</span>
     </label>
     <label class="d-flex m-1">
       <input type="radio" name="q3" value="e" class="h-100 mt-2" required>
       <span class="ms-1">e&#41 Um protocolo de internet</span>
     </label>
   </fieldset>
-  <fieldset class="d-flex flex-column border border-secondary border-2 rounded-1 mb-2 p-1">
+  <fieldset class="d-flex flex-column border border-secondary border-2 rounded-1 mb-2 p-1" disabled>
     <legend><span class="ms-1">4&#41 </span></legend>
     <label class="d-flex m-1">
       <input type="radio" name="q4" value="a" class="h-100 mt-2" required>
@@ -96,7 +105,7 @@
       <span class="ms-1">e&#41 </span>
     </label>
   </fieldset>
-  <fieldset class="d-flex flex-column border border-secondary border-2 rounded-1 mb-2 p-1">
+  <fieldset class="d-flex flex-column border border-secondary border-2 rounded-1 mb-2 p-1" disabled>
     <legend><span class="ms-1">5&#41 </span></legend>
     <label class="d-flex m-1">
       <input type="radio" name="q5" value="a" class="h-100 mt-2" required>
@@ -119,7 +128,7 @@
       <span class="ms-1">e&#41 </span>
     </label>
   </fieldset>
-  <fieldset class="d-flex flex-column border border-secondary border-2 rounded-1 mb-2 p-1">
+  <fieldset class="d-flex flex-column border border-secondary border-2 rounded-1 mb-2 p-1" disabled>
     <legend><span class="ms-1">6&#41 </span></legend>
     <label class="d-flex m-1">
       <input type="radio" name="q6" value="a" class="h-100 mt-2" required>
@@ -142,7 +151,7 @@
       <span class="ms-1">e&#41 </span>
     </label>
   </fieldset>
-  <fieldset class="d-flex flex-column border border-secondary border-2 rounded-1 mb-2 p-1">
+  <fieldset class="d-flex flex-column border border-secondary border-2 rounded-1 mb-2 p-1" disabled>
     <legend><span class="ms-1">7&#41 </span></legend>
     <label class="d-flex m-1">
       <input type="radio" name="q7" value="a" class="h-100 mt-2" required>
@@ -165,7 +174,7 @@
       <span class="ms-1">e&#41 </span>
     </label>
   </fieldset>
-  <fieldset class="d-flex flex-column border border-secondary border-2 rounded-1 mb-2 p-1">
+  <fieldset class="d-flex flex-column border border-secondary border-2 rounded-1 mb-2 p-1" disabled>
     <legend><span class="ms-1">8&#41 </span></legend>
     <label class="d-flex m-1">
       <input type="radio" name="q8" value="a" class="h-100 mt-2" required>
@@ -188,7 +197,7 @@
       <span class="ms-1">e&#41 </span>
     </label>
   </fieldset>
-  <fieldset class="d-flex flex-column border border-secondary border-2 rounded-1 mb-2 p-1">
+  <fieldset class="d-flex flex-column border border-secondary border-2 rounded-1 mb-2 p-1" disabled>
     <legend><span class="ms-1">9&#41 </span></legend>
     <label class="d-flex m-1">
       <input type="radio" name="q9" value="a" class="h-100 mt-2" required>
@@ -211,7 +220,7 @@
       <span class="ms-1">e&#41 </span>
     </label>
   </fieldset>
-  <fieldset class="d-flex flex-column border border-secondary border-2 rounded-1 mb-2 p-1">
+  <fieldset class="d-flex flex-column border border-secondary border-2 rounded-1 mb-2 p-1" disabled>
     <legend><span class="ms-1">10&#41 </span></legend>
     <label class="d-flex m-1">
       <input type="radio" name="q10" value="a" class="h-100 mt-2" required>

@@ -4,10 +4,15 @@
   var grade = 0;
 
   if (this.Model.q1 == "a") grade++;
-
   if (this.Model.q2 == "b") grade++;
-
   if (this.Model.q3 == "d") grade++;
+  if (this.Model.q4 == "c") grade++;
+  if (this.Model.q5 == "a") grade++;
+  if (this.Model.q6 == "b") grade++;
+  if (this.Model.q7 == "d") grade++;
+  if (this.Model.q8 == "c") grade++;
+  if (this.Model.q9 == "a") grade++;
+  if (this.Model.q10 == "b") grade++;
 }
 
 <form class="d-flex flex-column border border-2 border-secondary rounded-1 mx-auto p-2 w-50">
@@ -15,8 +20,8 @@
   <h1 class="text-center bg-success rounded-1 p-1">@(grade + "/10")</h1>
   <fieldset class="d-flex flex-column border border-secondary border-2 rounded-1 mb-2 p-1" disabled>
     <legend><span class="ms-1">1&#41 O que é o HTTP ?</span></legend>
-    <label class="d-flex m-1 @(this.Model.q1 != null ? "bg-success rounded-1 p-1" : null)">
-      <input type="radio" name="q1" value="a" class="h-100 mt-2" @(this.Model.q1 != null ? "checked" : null) required>
+    <label class="d-flex m-1 bg-success rounded-1 p-1">
+      <input type="radio" name="q1" value="a" class="h-100 mt-2" checked required>
       <span class=" ms-1">a&#41 É um protocolo de comunicação</span>
     </label>
     <label class="d-flex m-1">
@@ -29,7 +34,8 @@
     </label>
     <label class="d-flex m-1">
       <input type="radio" name="q1" value="d" class="h-100 mt-2" required>
-      <span class="ms-1">d&#41 É uma forma de ajudar os programadores a programarem para a web, diminuindo a quantidade de dados processados pela memoria da rede de computadores em nuvem</span>
+      <span class="ms-1">d&#41 É uma forma de ajudar os programadores a programarem para a web, diminuindo a quantidade
+        de dados processados pela memoria da rede de computadores em nuvem</span>
     </label>
     <label class="d-flex m-1">
       <input type="radio" name="q1" value="e" class="h-100 mt-2" required>
@@ -42,13 +48,14 @@
       <input type="radio" name="q2" value="a" class="h-100 mt-2" required>
       <span class="ms-1">a&#41 Transforma páginas html em páginas css</span>
     </label>
-    <label class="d-flex m-1 @(this.Model.q1 != null ? "bg-success rounded-1 p-1" : null)">
-      <input type="radio" name="q2" value="b" class="h-100 mt-2" @(this.Model.q1 != null ? "checked" : null) required>
+    <label class="d-flex m-1 bg-success rounded-1 p-1">
+      <input type="radio" name="q2" value="b" class="h-100 mt-2" checked required>
       <span class="ms-1">b&#41 Envia dados através de métodos entre o cliente e o servidor</span>
     </label>
     <label class="d-flex m-1">
       <input type="radio" name="q2" value="c" class="h-100 mt-2" required>
-      <span class="ms-1">c&#41 Gera links para sites relacionados ao site criado pelo usuário através de APIs web próprias para esse tipo de função</span>
+      <span class="ms-1">c&#41 Gera links para sites relacionados ao site criado pelo usuário através de APIs web
+        próprias para esse tipo de função</span>
     </label>
     <label class="d-flex m-1">
       <input type="radio" name="q2" value="d" class="h-100 mt-2" required>
@@ -73,8 +80,8 @@
       <input type="radio" name="q3" value="c" class="h-100 mt-2" required>
       <span class="ms-1">c&#41 O resultado de uma busca na internet</span>
     </label>
-    <label class="d-flex m-1 @(this.Model.q1 != null ? "bg-success rounded-1 p-1" : null)">
-      <input type="radio" name="q3" value="d" class="h-100 mt-2" @(this.Model.q1 != null ? "checked" : null) required>
+    <label class="d-flex m-1 bg-success rounded-1 p-1">
+      <input type="radio" name="q3" value="d" class="h-100 mt-2" checked required>
       <span class="ms-1">d&#41 É a requisição de algo para o servidor</span>
     </label>
     <label class="d-flex m-1">
@@ -92,8 +99,8 @@
       <input type="radio" name="q4" value="b" class="h-100 mt-2" required>
       <span class="ms-1">b&#41 </span>
     </label>
-    <label class="d-flex m-1">
-      <input type="radio" name="q4" value="c" class="h-100 mt-2" required>
+    <label class="d-flex m-1 bg-success rounded-1 p-1">
+      <input type="radio" name="q4" value="c" class="h-100 mt-2" checked required>
       <span class="ms-1">c&#41 </span>
     </label>
     <label class="d-flex m-1">
@@ -107,8 +114,8 @@
   </fieldset>
   <fieldset class="d-flex flex-column border border-secondary border-2 rounded-1 mb-2 p-1" disabled>
     <legend><span class="ms-1">5&#41 </span></legend>
-    <label class="d-flex m-1">
-      <input type="radio" name="q5" value="a" class="h-100 mt-2" required>
+    <label class="d-flex m-1 bg-success rounded-1 p-1">
+      <input type="radio" name="q5" value="a" class="h-100 mt-2" checked required>
       <span class="ms-1">a&#41 </span>
     </label>
     <label class="d-flex m-1">
@@ -134,8 +141,8 @@
       <input type="radio" name="q6" value="a" class="h-100 mt-2" required>
       <span class="ms-1">a&#41 </span>
     </label>
-    <label class="d-flex m-1">
-      <input type="radio" name="q6" value="b" class="h-100 mt-2" required>
+    <label class="d-flex m-1 bg-success rounded-1 p-1">
+      <input type="radio" name="q6" value="b" class="h-100 mt-2" checked required>
       <span class="ms-1">b&#41 </span>
     </label>
     <label class="d-flex m-1">
@@ -165,8 +172,8 @@
       <input type="radio" name="q7" value="c" class="h-100 mt-2" required>
       <span class="ms-1">c&#41 </span>
     </label>
-    <label class="d-flex m-1">
-      <input type="radio" name="q7" value="d" class="h-100 mt-2" required>
+    <label class="d-flex m-1 bg-success rounded-1 p-1">
+      <input type="radio" name="q7" value="d" class="h-100 mt-2" checked required>
       <span class="ms-1">d&#41 </span>
     </label>
     <label class="d-flex m-1">
@@ -184,8 +191,8 @@
       <input type="radio" name="q8" value="b" class="h-100 mt-2" required>
       <span class="ms-1">b&#41 </span>
     </label>
-    <label class="d-flex m-1">
-      <input type="radio" name="q8" value="c" class="h-100 mt-2" required>
+    <label class="d-flex m-1 bg-success rounded-1 p-1">
+      <input type="radio" name="q8" value="c" class="h-100 mt-2"  checked required>
       <span class="ms-1">c&#41 </span>
     </label>
     <label class="d-flex m-1">
@@ -199,8 +206,8 @@
   </fieldset>
   <fieldset class="d-flex flex-column border border-secondary border-2 rounded-1 mb-2 p-1" disabled>
     <legend><span class="ms-1">9&#41 </span></legend>
-    <label class="d-flex m-1">
-      <input type="radio" name="q9" value="a" class="h-100 mt-2" required>
+    <label class="d-flex m-1 bg-success rounded-1 p-1">
+      <input type="radio" name="q9" value="a" class="h-100 mt-2"  checked required>
       <span class="ms-1">a&#41 </span>
     </label>
     <label class="d-flex m-1">
@@ -226,8 +233,8 @@
       <input type="radio" name="q10" value="a" class="h-100 mt-2" required>
       <span class="ms-1">a&#41 </span>
     </label>
-    <label class="d-flex m-1">
-      <input type="radio" name="q10" value="b" class="h-100 mt-2" required>
+    <label class="d-flex m-1 bg-success rounded-1 p-1">
+      <input type="radio" name="q10" value="b" class="h-100 mt-2" checked required>
       <span class="ms-1">b&#41 </span>
     </label>
     <label class="d-flex m-1">
@@ -243,5 +250,4 @@
       <span class="ms-1">e&#41 </span>
     </label>
   </fieldset>
-  <button type="submit" class=" border border-2 rounded-1 mx-auto my-2 p-1 w-25 btn btn-outline-light">Enviar</button>
 </form>

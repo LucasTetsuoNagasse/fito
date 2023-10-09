@@ -4,11 +4,11 @@ using geladeira.Models;
 
 namespace geladeira.Controllers;
 
-public class HomeController : Controller
+public class QuestonsController : Controller
 {
-  private readonly ILogger<HomeController> _logger;
+  private readonly ILogger<QuestonsController> _logger;
 
-  public HomeController(ILogger<HomeController> logger)
+  public QuestonsController(ILogger<QuestonsController> logger)
   {
     _logger = logger;
   }
@@ -17,10 +17,11 @@ public class HomeController : Controller
   {
     return View();
   }
-
-  public IActionResult Privacy()
+  
+  [HttpPost]
+  public IActionResult Correct(QuestonsModel model)
   {
-    return View();
+    return View(model);
   }
 
   [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

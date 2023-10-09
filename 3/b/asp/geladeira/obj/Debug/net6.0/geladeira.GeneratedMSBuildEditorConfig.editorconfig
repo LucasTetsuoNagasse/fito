@@ -16,10 +16,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\githubb\luvas\fito\3\b\asp\geladeira
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/githubb/luvas/fito/3/b/asp/geladeira/Views/Home/CorrectQuestons.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb3JyZWN0UXVlc3RvbnMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/githubb/luvas/fito/3/b/asp/geladeira/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -28,8 +24,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/githubb/luvas/fito/3/b/asp/geladeira/Views/Home/Questons.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxRdWVzdG9ucy5jc2h0bWw=
+[D:/githubb/luvas/fito/3/b/asp/geladeira/Views/Questons/Correct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3RvbnNcQ29ycmVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/githubb/luvas/fito/3/b/asp/geladeira/Views/Questons/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3RvbnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/githubb/luvas/fito/3/b/asp/geladeira/Views/Shared/Error.cshtml]

@@ -1,8 +1,12 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+@section styles {
+    <link href="@Url.Content("~/css/index.css")" rel="stylesheet" type="text/css" />
+}
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Welcome to the geladeira</h1>
+    <p>A cold and dark little place.</p>
+    <img src="~/img/geladeira.png" class="border border-3 rounded-2">
 </div>

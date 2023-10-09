@@ -5,12 +5,20 @@
       "PackagePath": "staticwebassets\\geladeira.bundle.scp.css"
     },
     {
+      "Id": "D:\\githubb\\luvas\\fito\\3\\b\\asp\\geladeira\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
       "Id": "D:\\githubb\\luvas\\fito\\3\\b\\asp\\geladeira\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "D:\\githubb\\luvas\\fito\\3\\b\\asp\\geladeira\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\githubb\\luvas\\fito\\3\\b\\asp\\geladeira\\wwwroot\\img\\geladeira.png",
+      "PackagePath": "staticwebassets\\img\\geladeira.png"
     },
     {
       "Id": "D:\\githubb\\luvas\\fito\\3\\b\\asp\\geladeira\\wwwroot\\js\\site.js",

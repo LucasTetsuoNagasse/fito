@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "C5St9Dg/I7NTj2lVGtyuS5YvPjMBOhUkSc70TMP6+gs=",
+  "Hash": "FLsCzvype8NcUfv+JCSE0rJxgWV5bKdU/EE6FIoeu6I=",
   "Source": "geladeira",
   "BasePath": "_content/geladeira",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "D:\\githubb\\luvas\\fito\\3\\b\\asp\\geladeira\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\geladeira.bundle.scp.css"
     },
     {
+      "Identity": "D:\\githubb\\luvas\\fito\\3\\b\\asp\\geladeira\\wwwroot\\css\\index.css",
+      "SourceId": "geladeira",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\githubb\\luvas\\fito\\3\\b\\asp\\geladeira\\wwwroot\\",
+      "BasePath": "_content/geladeira",
+      "RelativePath": "css/index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\index.css"
+    },
+    {
       "Identity": "D:\\githubb\\luvas\\fito\\3\\b\\asp\\geladeira\\wwwroot\\css\\site.css",
       "SourceId": "geladeira",
       "SourceType": "Discovered",
@@ -83,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\githubb\\luvas\\fito\\3\\b\\asp\\geladeira\\wwwroot\\img\\geladeira.png",
+      "SourceId": "geladeira",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\githubb\\luvas\\fito\\3\\b\\asp\\geladeira\\wwwroot\\",
+      "BasePath": "_content/geladeira",
+      "RelativePath": "img/geladeira.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\geladeira.png"
     },
     {
       "Identity": "D:\\githubb\\luvas\\fito\\3\\b\\asp\\geladeira\\wwwroot\\js\\site.js",

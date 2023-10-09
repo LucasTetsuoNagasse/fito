@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\githubb\\luvas\\fito\\3\\c\\asp\\porta\\porta.csproj": {}
+    "D:\\githubb\\luvas\\fito\\3\\b\\asp\\porta\\porta.csproj": {}
   },
   "projects": {
-    "D:\\githubb\\luvas\\fito\\3\\c\\asp\\porta\\porta.csproj": {
+    "D:\\githubb\\luvas\\fito\\3\\b\\asp\\porta\\porta.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\githubb\\luvas\\fito\\3\\c\\asp\\porta\\porta.csproj",
+        "projectUniqueName": "D:\\githubb\\luvas\\fito\\3\\b\\asp\\porta\\porta.csproj",
         "projectName": "porta",
-        "projectPath": "D:\\githubb\\luvas\\fito\\3\\c\\asp\\porta\\porta.csproj",
+        "projectPath": "D:\\githubb\\luvas\\fito\\3\\b\\asp\\porta\\porta.csproj",
         "packagesPath": "C:\\Users\\ninec\\.nuget\\packages\\",
-        "outputPath": "D:\\githubb\\luvas\\fito\\3\\c\\asp\\porta\\obj\\",
+        "outputPath": "D:\\githubb\\luvas\\fito\\3\\b\\asp\\porta\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ninec\\AppData\\Roaming\\NuGet\\NuGet.Config",

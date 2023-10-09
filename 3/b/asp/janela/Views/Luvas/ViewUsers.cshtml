@@ -1,0 +1,19 @@
+@{
+  ViewData["Title"] = "View Users";
+}
+
+<div class="text-center">
+  <h1>Users</h1>
+  <table class="text-light m-auto">
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Profession</th>
+    </tr>
+    <tr>
+      @(Html.Raw(this.Model.name != null ? "<td>" + this.Model.name + "</td>" : ""))
+      @(Html.Raw(this.Model.age != null ? "<td>" + this.Model.age + "</td>" : ""))
+      @(Html.Raw(this.Model.profession != null ? "<td>" + this.Model.profession + "</td>" : ""))
+    </tr>
+  </table>
+</div>

@@ -28,3 +28,10 @@ pre,
 span {
   color: #afaf9f;
 }
+
+input::placeholder {
+  color: #fffffd
+}
+table > * > * > * {
+  border: 1px solid #fffffd
+}

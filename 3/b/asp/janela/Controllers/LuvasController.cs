@@ -17,19 +17,11 @@ public class LuvasController : Controller
     {
         return View();
     }
-    [HttpGet]
-    public IActionResult Signin()
+
+    [HttpPost]
+    public IActionResult Signin(UsersModel model)
     {
-        return View();
-    }
-    [HttpPost, ActionName("SignIn")]
-    public IActionResult SigninP(UsersModel model)
-    {
-        return RedirectToAction("ViewUsers", model);
-    }
-    public IActionResult ViewUsers()
-    {
-        return View();
+        return View("ViewUsers", model);
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

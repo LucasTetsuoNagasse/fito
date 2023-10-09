@@ -1,7 +1,11 @@
 @{
-    ViewData["Title"] = "Luvas";
+  ViewData["Title"] = "SignIn";
 }
 
-<div class="text-center">
-    
-</div>
+<form asp-controller="Luvas" asp-action="Signin" method="post" class="d-flex flex-column border border-2 border-secondary rounded-1 mx-auto p-2 w-25 align-items-center">
+  <h2 class="m-3">Sign In/Login</h2>
+  <label class="d-flex m-1 mt-2 w-75 h-100"><input type="text" name="name" id="name" placeholder="Name" class="w-100 bg-secondary rounded text-light" required autofocus></label>
+  <label class="d-flex m-1 mt-2 w-75 h-100"><input type="number" name="age" id="age" placeholder="Age" class="w-100 bg-secondary rounded text-light" required></label>
+  <label class="d-flex m-1 mt-2 w-75 h-100"><input type="text" name="profession" id="profession" placeholder="Profession" class="w-100 bg-secondary rounded text-light" required></label>
+  <button type="submit" class="btn btn-success m-3">Sign In/Login</button>
+</form>

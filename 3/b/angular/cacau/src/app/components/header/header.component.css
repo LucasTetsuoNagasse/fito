@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  background: url(/assets/img/headerbg.png);
+  background-size: cover;
+}
+.header > .logo {
+  width: 46%;
+  padding: 2rem 3rem;
+}
+.header > .logo > img {
+  width: 20%;
+  max-width: 350px;
+  margin-bottom: 2rem;
+}
+.header > img {
+  position: relative;
+  right: 5%;
+  height: 15rem;
+}
+.header p {
+  font-size: 1.2rem;
+  color: #6bd1ffff;
+}
+
+@media (max-width: 576px) {
+  .header > .logo {
+    padding: 2rem;
+  }
+  .header p {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .header > .logo {
+    width: 90%;
+  }
+  .header > img {
+    display: none;
+  }
+}

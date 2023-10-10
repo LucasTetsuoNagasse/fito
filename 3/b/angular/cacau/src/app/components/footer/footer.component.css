@@ -1,0 +1,25 @@
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  background-image: url(/assets/img/footerbg.png);
+}
+.texto-copyright {
+  justify-self: center;
+}
+
+.logo {
+  justify-self: center;
+  height: 10rem;
+}
+footer small {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  footer {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
+}

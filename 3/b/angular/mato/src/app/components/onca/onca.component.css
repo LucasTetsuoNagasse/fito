@@ -1,0 +1,7 @@
+table {
+  margin: auto;
+}
+table > * > *  {
+  border: 1px solid #ffffdfff;
+  color: #ffffdfff;
+}

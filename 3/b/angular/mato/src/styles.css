@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #202040ff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label,
+span,
+pre,
+code {
+  color: #ffffdfff;
+}
+main > h1 {
+  margin: 1rem;
+  text-align: center;
+}
